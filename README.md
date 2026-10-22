@@ -13,11 +13,9 @@ print(ID)
 
 Then, in the URL field, you should enter http://localhost:9000/, and in the headers, enter the following:
 
-x-tp-url: https://ejemplo.com
-
-x-tp-session: <ID>
-
-x-tp-proxie: <PROXY>
+`x-tp-url:` https://ejemplo.com
+`x-tp-session:` <ID>
+`x-tp-proxie:` <PROXY>
 
 You can also use these, which are **optional**.
 And these would be the main ones because it also has other names but they are for the same thing.
@@ -28,11 +26,8 @@ In this case, you'd have to use the one you have if you want it to be used as a 
 But remember to use a format that's supported, which is almost all of them.
 
 http://user:pass@host:port
-
 user:pass@host:port
-
 user:pass:host:port
-
 host:port:user:pass
 
 x-tp-proxy-fallback: ...
