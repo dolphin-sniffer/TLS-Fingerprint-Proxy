@@ -962,6 +962,6 @@ async def _proxy_core(request: Request, path: str = ""):
         tb = traceback.format_exc()
         return JSONResponse({"success": False, "error": str(e), "trace": tb}, status_code=200)
 if __name__ == "__main__":
-    print(f"[JOIN] [https://t.me/+xJcjMnq1Gw5jZWE0]")
+    print(f"[JOIN] [https://github.com/dolphin-sniffer/]")
     print("[RUNNING] [http://localhost:9000]")
     uvicorn.run(app, host="0.0.0.0", port=PORT, log_level="error", access_log=False, timeout_keep_alive=60)
