@@ -5,8 +5,6 @@ But what it doesn't do is pass its challenges like the turnstile one.
 
 # How do I use it?
 
-## STRUCTURE:
-
 For the proxy, you will need to define one in your code, and for the ID, you will need to generate a numeric value.
 
 import random
@@ -16,7 +14,9 @@ print(ID)
 Then, in the URL field, you should enter http://localhost:9000/, and in the headers, enter the following:
 
 x-tp-url: https://ejemplo.com
+
 x-tp-session: <ID>
+
 x-tp-proxie: <PROXY>
 
 You can also use these, which are **optional**.
@@ -26,10 +26,15 @@ And these would be the main ones because it also has other names but they are fo
 
 In this case, you'd have to use the one you have if you want it to be used as a backup in case the others can't connect or can't attend for some reason.
 But remember to use a format that's supported, which is almost all of them.
+
 http://user:pass@host:port
+
 user:pass@host:port
+
 user:pass:host:port
+
 host:port:user:pass
+
 x-tp-proxy-fallback: ...
 
 **2 -**
