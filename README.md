@@ -1,4 +1,4 @@
-# TLS
+# ⚙️ TLS
 
 By using this script as a local proxy (http://localhost:9000), you can send requests to servers protected by Cloudflare while avoiding being blocked due to fingerprinting.
 But what it doesn't do is pass its challenges like the turnstile one.
